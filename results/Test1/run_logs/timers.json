@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1660785121",
+        "python_version": "3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Usuario\\Documents\\Proyectos Unity\\Reinforcement Learning\\venv\\Scripts\\mlagents-learn Config/GetFood.yaml --run-id=Test1",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1660785135"
+    },
+    "total": 14.143909999999998,
+    "count": 1,
+    "self": 0.014276599999996975,
+    "children": {
+        "run_training.setup": {
+            "total": 0.21020280000000113,
+            "count": 1,
+            "self": 0.21020280000000113
+        },
+        "TrainerController.start_learning": {
+            "total": 13.9194306,
+            "count": 1,
+            "self": 0.0005173999999978918,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 13.918892800000002,
+                    "count": 1,
+                    "self": 13.918892800000002
+                },
+                "trainer_threads": {
+                    "total": 1.1000000021965661e-06,
+                    "count": 1,
+                    "self": 1.1000000021965661e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.9299999998168005e-05,
+                    "count": 1,
+                    "self": 1.9299999998168005e-05
+                }
+            }
+        }
+    }
+}
